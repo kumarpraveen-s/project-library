@@ -12,7 +12,7 @@ const Header = ({ isAdmin, isStudent, adminHandler, studentHandler }) => {
   };
   return (
     <div className={classes.header}>
-      <div className={classes.heading}>E-Library</div>
+      <Link to="/"><div className={classes.heading}>E-Library</div></Link>
       {!isAdmin && !isStudent && (
         <div className={classes.button}>
           <button onClick={AdminHandler}>Admin</button>
