@@ -1,0 +1,60 @@
+.login {
+  width: 600px;
+  height: 300px;
+  border: 1px solid white;
+  border-radius: 20px;
+  margin: 70px auto;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-top: 10px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  color: #541690;
+}
+.input {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.input input {
+  width: 450px;
+  height: 35px;
+  padding: 10px;
+  outline: none;
+}
+.button {
+  margin-top: 20px;
+}
+
+.button button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  background-color: #0d6efd;
+  color: #fff;
+  font-size: 20px;
+}
+
+.button button:hover {
+  cursor: pointer;
+}
+
+.alert {
+  color: red;
+  font-size: 10px;
+}
